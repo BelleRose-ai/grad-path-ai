@@ -1,11 +1,11 @@
 
 import React, { useState } from 'react';
 import { EvaluationResult, ImprovementArea, AlternativeUniversity } from '../types';
-import { AcademicCapIcon } from './icons/AcademicCapIcon';
-import { StarIcon } from './icons/StarIcon';
-import { LightBulbIcon } from './icons/LightBulbIcon';
-import { ChevronDownIcon } from './icons/ChevronDownIcon';
-import { ChevronUpIcon } from './icons/ChevronUpIcon';
+import { AcademicCapIcon } from './AcademicCapIcon';
+import { StarIcon } from './StarIcon';
+import { LightBulbIcon } from './LightBulbIcon';
+import { ChevronDownIcon } from './ChevronDownIcon';
+import { ChevronUpIcon } from './ChevronUpIcon';
 
 interface ResultsDisplayProps {
   result: EvaluationResult;
