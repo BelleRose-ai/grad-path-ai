@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { UserProfile } from '../types';
-import { LightBulbIcon } from './icons/LightBulbIcon'; // Placeholder, replace with actual icon path
+import { LightBulbIcon } from './LightBulbIcon'; // Placeholder, replace with actual icon path
 
 interface ProfileFormProps {
   profileData: UserProfile;
