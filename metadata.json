@@ -1,0 +1,6 @@
+{
+  "name": "GradPath AI",
+  "description": "An AI-powered tool that reviews your academic profile, gives you a rating, suggests how to improve it, and helps match you with the best universities and scholarships for you.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
