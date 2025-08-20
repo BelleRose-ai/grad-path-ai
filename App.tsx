@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { UserProfile, EvaluationResult, ChatMessage } from './types';
-import { evaluateUserProfile, initializeChatSession, sendChatMessageToSession } from './services/geminiService';
+import { evaluateUserProfile, initializeChatSession, sendChatMessageToSession } from './geminiService';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ProfileForm from './components/ProfileForm';
