@@ -1,13 +1,13 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { UserProfile, EvaluationResult, ChatMessage } from './types';
 import { evaluateUserProfile, initializeChatSession, sendChatMessageToSession } from './geminiService';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import ProfileForm from './components/ProfileForm';
-import ResultsDisplay from './components/ResultsDisplay';
-import LoadingSpinner from './components/LoadingSpinner';
-import AlertMessage from './components/AlertMessage';
-import ChatSection from './components/ChatSection'; // New Import
+import Header from './Header';
+import Footer from './Footer';
+import ProfileForm from './ProfileForm';
+import ResultsDisplay from './ResultsDisplay';
+import LoadingSpinner from './LoadingSpinner';
+import AlertMessage from './AlertMessage';
+import ChatSection from './ChatSection'; // New Import
 import type { Chat } from '@google/genai'; // Import Chat type
 
 const initialProfileState: UserProfile = {
