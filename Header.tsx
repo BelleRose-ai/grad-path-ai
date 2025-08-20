@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { AcademicCapIcon } from './icons/AcademicCapIcon';
+import { AcademicCapIcon } from './AcademicCapIcon';
 
 const Header: React.FC = () => {
   return (
