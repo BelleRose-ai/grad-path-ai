@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ChatMessage } from '../types';
-import { UserIcon } from './icons/UserIcon';
-import { SparklesIcon } from './icons/SparklesIcon'; // For AI/Bot icon
-import { PaperAirplaneIcon } from './icons/PaperAirplaneIcon'; // Send button icon
+import { UserIcon } from './UserIcon';
+import { SparklesIcon } from '.SparklesIcon'; // For AI/Bot icon
+import { PaperAirplaneIcon } from '.PaperAirplaneIcon'; // Send button icon
 
 interface ChatSectionProps {
   chatHistory: ChatMessage[];
